@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F3EE2ABC59FB78D9AD3AB35 /* Pods_hn_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED194D19BA0B3E0296E431A2 /* Pods_hn_ios.framework */; };
+		DF3B1256210108780003B654 /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B1255210108780003B654 /* FeedTableViewController.swift */; };
 		DF8527DE20F41DF000C39147 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8527DD20F41DF000C39147 /* AppDelegate.swift */; };
-		DF8527E020F41DF000C39147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8527DF20F41DF000C39147 /* ViewController.swift */; };
 		DF8527E320F41DF000C39147 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8527E120F41DF000C39147 /* Main.storyboard */; };
 		DF8527E520F41DF000C39147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8527E420F41DF000C39147 /* Assets.xcassets */; };
 		DF8527E820F41DF000C39147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8527E620F41DF000C39147 /* LaunchScreen.storyboard */; };
 		DF8527F320F41DF000C39147 /* hn_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8527F220F41DF000C39147 /* hn_iosTests.swift */; };
 		DF8527FE20F41DF000C39147 /* hn_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8527FD20F41DF000C39147 /* hn_iosUITests.swift */; };
+		DFABC8BB2107C5A9007A4B8F /* CommentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFABC8BA2107C5A9007A4B8F /* CommentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73B94742E3C5A6ADEABA5FD4 /* Pods-hn-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hn-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hn-ios/Pods-hn-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A6151D2EFABB42B08B9A19C7 /* Pods-hn-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hn-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-hn-ios/Pods-hn-ios.release.xcconfig"; sourceTree = "<group>"; };
+		DF3B1255210108780003B654 /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
 		DF8527DA20F41DF000C39147 /* hn-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hn-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8527DD20F41DF000C39147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF8527DF20F41DF000C39147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF8527E220F41DF000C39147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF8527E420F41DF000C39147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF8527E720F41DF000C39147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		DF8527F920F41DF000C39147 /* hn-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hn-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8527FD20F41DF000C39147 /* hn_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hn_iosUITests.swift; sourceTree = "<group>"; };
 		DF8527FF20F41DF000C39147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFABC8BA2107C5A9007A4B8F /* CommentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewController.swift; sourceTree = "<group>"; };
+		ED194D19BA0B3E0296E431A2 /* Pods_hn_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hn_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F3EE2ABC59FB78D9AD3AB35 /* Pods_hn_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86805065BFC1A00AA1FEA4CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73B94742E3C5A6ADEABA5FD4 /* Pods-hn-ios.debug.xcconfig */,
+				A6151D2EFABB42B08B9A19C7 /* Pods-hn-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D877B5F8643B3A01FFE1EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED194D19BA0B3E0296E431A2 /* Pods_hn_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF8527D120F41DEF00C39147 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				DF8527F120F41DF000C39147 /* hn-iosTests */,
 				DF8527FC20F41DF000C39147 /* hn-iosUITests */,
 				DF8527DB20F41DF000C39147 /* Products */,
+				86805065BFC1A00AA1FEA4CB /* Pods */,
+				8D877B5F8643B3A01FFE1EF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				DF8527DD20F41DF000C39147 /* AppDelegate.swift */,
-				DF8527DF20F41DF000C39147 /* ViewController.swift */,
+				DFABC8BA2107C5A9007A4B8F /* CommentsTableViewController.swift */,
 				DF8527E120F41DF000C39147 /* Main.storyboard */,
+				DF3B1255210108780003B654 /* FeedTableViewController.swift */,
 				DF8527E420F41DF000C39147 /* Assets.xcassets */,
 				DF8527E620F41DF000C39147 /* LaunchScreen.storyboard */,
 				DF8527E920F41DF000C39147 /* Info.plist */,
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF85280220F41DF000C39147 /* Build configuration list for PBXNativeTarget "hn-ios" */;
 			buildPhases = (
+				CBA15EC315C6E9B0BB176A6D /* [CP] Check Pods Manifest.lock */,
 				DF8527D620F41DF000C39147 /* Sources */,
 				DF8527D720F41DF000C39147 /* Frameworks */,
 				DF8527D820F41DF000C39147 /* Resources */,
+				751FCAE4609D15850F8C3815 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,7 +217,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Pasha Pourmand";
 				TargetAttributes = {
 					DF8527D920F41DF000C39147 = {
@@ -254,13 +283,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		751FCAE4609D15850F8C3815 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hn-ios/Pods-hn-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hn-ios/Pods-hn-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA15EC315C6E9B0BB176A6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hn-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF8527D620F41DF000C39147 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF8527E020F41DF000C39147 /* ViewController.swift in Sources */,
 				DF8527DE20F41DF000C39147 /* AppDelegate.swift in Sources */,
+				DF3B1256210108780003B654 /* FeedTableViewController.swift in Sources */,
+				DFABC8BB2107C5A9007A4B8F /* CommentsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +398,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +406,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -363,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +457,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +465,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -414,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -424,12 +497,15 @@
 		};
 		DF85280320F41DF000C39147 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B94742E3C5A6ADEABA5FD4 /* Pods-hn-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FTFAMLB2;
 				INFOPLIST_FILE = "hn-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "pashapourmand.hn-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = pashapourmand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -438,12 +514,15 @@
 		};
 		DF85280420F41DF000C39147 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6151D2EFABB42B08B9A19C7 /* Pods-hn-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FTFAMLB2;
 				INFOPLIST_FILE = "hn-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "pashapourmand.hn-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = pashapourmand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,6 +535,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FTFAMLB2;
 				INFOPLIST_FILE = "hn-iosTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pashapourmand.hn-iosTests";
@@ -472,6 +552,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FTFAMLB2;
 				INFOPLIST_FILE = "hn-iosTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pashapourmand.hn-iosTests";
@@ -487,6 +568,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FTFAMLB2;
 				INFOPLIST_FILE = "hn-iosUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pashapourmand.hn-iosUITests";
@@ -502,6 +584,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6FTFAMLB2;
 				INFOPLIST_FILE = "hn-iosUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pashapourmand.hn-iosUITests";
